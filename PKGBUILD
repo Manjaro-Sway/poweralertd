@@ -7,7 +7,7 @@ pkgdesc='UPower-powered power alerter '
 url=https://git.sr.ht/~kennylevinsen/poweralertd
 arch=(x86_64 aarch64)
 license=(GPL)
-depends=(mako upower)
+depends=(systemd-libs upower)
 makedepends=(scdoc meson)
 source=(
   "${pkgname}-${pkgver}::https://git.sr.ht/~kennylevinsen/poweralertd/archive/$pkgver.tar.gz"
