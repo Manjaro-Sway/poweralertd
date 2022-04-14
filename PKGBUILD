@@ -5,7 +5,7 @@ pkgver=0.2.0
 pkgrel=1
 pkgdesc='UPower-powered power alerter '
 url=https://git.sr.ht/~kennylevinsen/poweralertd
-arch=(x86_64)
+arch=(x86_64 aarch64)
 license=(GPL)
 depends=(mako upower)
 makedepends=(scdoc)
@@ -24,4 +24,3 @@ package () {
 	cd "${pkgname}-${pkgver}"
 	DESTDIR="${pkgdir}" ninja -C build install
 }
-
