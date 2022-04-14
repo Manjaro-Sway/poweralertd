@@ -3,9 +3,9 @@
 # Contributor: Stefan Tatschner <stefan@rumpelsepp.org>
 pkgname=poweralertd
 pkgver=0.2.0
-pkgrel=2
+pkgrel=4
 pkgdesc="UPower-powered power alerter"
-arch=('x86_64')
+arch=('x86_64' 'aarch64')
 url="https://sr.ht/~kennylevinsen/poweralertd"
 license=('GPL3')
 depends=('systemd-libs' 'upower')
@@ -23,4 +23,3 @@ build () {
 package () {
   meson install -C build --destdir "$pkgdir"
 }
-
