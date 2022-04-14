@@ -2,7 +2,7 @@
 
 pkgname=poweralertd
 pkgver=0.2.0
-pkgrel=1
+pkgrel=2
 pkgdesc='UPower-powered power alerter '
 url=https://git.sr.ht/~kennylevinsen/poweralertd
 arch=(x86_64 aarch64)
