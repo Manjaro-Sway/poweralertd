@@ -3,7 +3,7 @@
 # Contributor: Stefan Tatschner <stefan@rumpelsepp.org>
 pkgname=poweralertd
 pkgver=0.2.0
-pkgrel=2.1
+pkgrel=4
 pkgdesc="UPower-powered power alerter"
 arch=('x86_64' 'aarch64')
 url="https://sr.ht/~kennylevinsen/poweralertd"
