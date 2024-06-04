@@ -4,13 +4,13 @@ pkgbase = poweralertd
 	pkgrel = 2
 	url = https://sr.ht/~kennylevinsen/poweralertd
 	arch = x86_64
-	license = GPL3
+	license = GPL-3.0-only
 	makedepends = meson
 	makedepends = scdoc
+	depends = glibc
 	depends = systemd-libs
 	depends = upower
-	optdepends = mako: option for notification daemon
-	optdepends = libnotify: option for notification daemon
+	optdepends = mako: notification daemon
 	source = poweralertd-0.2.0.tar.gz::https://git.sr.ht/~kennylevinsen/poweralertd/archive/0.2.0.tar.gz
 	sha256sums = f70076dad452c592e2fcdeba4fd533c11394c254f42c21522aa7b56f92a0bd69
 
