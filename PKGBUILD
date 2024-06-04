@@ -1,4 +1,4 @@
-# Maintainer: 
+# Maintainer: Carlo Abelli <carlo@abelli.me>
 # Contributor: Mark Wagie <mark dot wagie at tutanota dot com>
 # Contributor: Stefan Tatschner <stefan@rumpelsepp.org>
 pkgname=poweralertd
